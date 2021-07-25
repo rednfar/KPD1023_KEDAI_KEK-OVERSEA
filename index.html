@@ -1,23 +1,29 @@
 <html>
   <head>
-    <title>Kedai Kek Oversea</title>
+    <title>KEDAI KEK CAWAN</title>
     <style>
       .header {
         overflow: hidden;
         border: double;
+        border-style: solid;
+        border-color: rgb(119, 136, 153);
+        background-color: rgb(211, 211, 211);
         margin: auto;
       }
+
       .header_logo {
         float: left;
         border-right: double;
         padding: 10px;
         width: 30%;
       }
+
       .header_logo img {
         display: block;
         margin-left: auto;
         margin-right: auto;
       }
+
       .header_greeting {
         margin-top: 50px;
         margin-left: auto;
@@ -26,28 +32,36 @@
         font-size: 40;
         font-weight: bold;
       }
+
       .vertical {
         overflow: hidden;
         border: double;
+        border-style: solid;
+        border-color: rgb(70, 130, 180);
         margin: auto;
         margin-top: 10px;
+        background-color: rgb(135, 206, 235);
       }
+
       .menu {
         width: 30%;
         margin-top: 10px;
         float: left;
         margin: auto;
       }
+
       ul {
         list-style-type: none;
         padding-left: 5px;
         margin: auto;
       }
+
       a {
         text-decoration: none;
         display: block;
         padding: 10px;
       }
+
       .kandungan {
         margin: auto;
         float: left;
@@ -56,47 +70,62 @@
         padding: 10px;
         text-align: center;
       }
+
       .kandungan img {
         display: block;
         margin: auto;
         padding: 10px;
       }
+
       .kaki {
+        width: 100%;
         margin: auto;
-        border-style: double;
-        margin: auto;
+        margin-top: 10px;
+        border: double;
+        border-style: solid;
+        border-color: rgb(245, 222, 179);
+        background-color: rgb(210, 180, 140);
+        text-align: center;
         padding-top: 5px;
         padding-bottom: 5px;
-        text-align: center;
-        margin-top: 10px;
       }
     </style>
   </head>
-  
+
   <body>
+
     <!--Header-->
-    <div class="menu">
-      Senarai Menu
-      <ul>
-        <li><a href="#">UTAMA</a></li>
-        <li><a href="#">KEDAI KAMI</a></li>
-        <li><a href="#">TENTANG KAMI</a></li>
-        <li><a href="#">HUBUNGI KAMI</a></li>
-      </ul>
+    <div class="header">
+      <div class="header_logo"><img src="images/logo.jpg"></div>
+      <div class="header_greeting">
+        <h1>Selamat Datang</h1>
+      </div>
     </div>
-    
-    <!--Content-->
-    <div class="kandungan">
-      <img src="images/kek.jpg" width="150px">
-      <br>
-      Sila beri komen tentang produk ini
-      <a href="komen.html">di sini</a>
+
+    <div class="vertical">
+      <!--Menu-->
+      <div class="menu">
+        Senarai Menu
+        <ul>
+          <li><a href="#">UTAMA</a></li>
+          <li><a href="#">KEDAI KAMI</a></li>
+          <li><a href="#">TENTANG KAMI</a></li>
+          <li><a href="#">HUBUNGI KAMI</a></li>
+        </ul>
+      </div>
+
+      <!--Content-->
+      <div class="kandungan">
+        <img src="images/kek.jpg" width="150px">
+        <br>
+        Sila komen tentang produk ini
+        <a href="komen.html">di sini</a>
+      </div>
     </div>
+
+    <!--Footer-->
+    <div class="kaki">
+      &copy;KEDAI KEK OVERSEA,2021
     </div>
-  
-   <!--Footer-->
-   <div class="kaki">
-    &copy;KEDAI KEK OVERSEA, 2021
-   </div>
   </body>
 </html>
